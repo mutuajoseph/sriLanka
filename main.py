@@ -64,7 +64,7 @@ def login():
 
     return render_template("login.html")
 
-@app.route('/', methods = ['GET', 'POST'])
+@app.route('/')
 def home():
     return render_template("index.html")
 
